@@ -16,3 +16,8 @@ int main(){
       break;
     case '/': result = p / q;
       break;
+    default: printf("\n Invalid Operator");
+  }
+  printf("The value = %f",result);
+  return 0;
+}

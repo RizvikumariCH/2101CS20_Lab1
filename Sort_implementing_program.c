@@ -24,3 +24,32 @@ while(1)
   printf("\nEnter your choice:");
   scanf("%d",&choice);
   
+  switch(choice)
+  {
+    case 1:
+      bubble_sort(arr,n);
+      break;
+    case 2:
+      selection_sort(arr,n);
+      break;
+    case 3:
+      insertion_sort(arr,n);
+      break;
+    case 4:
+      quick_sort(arr,n);
+      break;
+    case 5:
+      merge_sort(arr,n);
+      break;
+    case 6:
+      display(arr,n);
+      break;
+    case 7:
+      return 0;
+    default:
+      printf("\nSelect only 1-7 option\n");
+  }
+}
+return0;
+}
+  

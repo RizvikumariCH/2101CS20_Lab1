@@ -7,3 +7,12 @@ int main(){
   scanf("%c",&Operator);
   printf("Enter the values of Operators p and q\n:");
   scanf("%f%f",&p,&q);
+  switch(Operator){
+    case '+': result = p + q;
+      break;
+    case '-': result = p - q;
+      break;
+    case '*': result = p * q;
+      break;
+    case '/': result = p / q;
+      break;

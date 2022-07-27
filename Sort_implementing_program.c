@@ -125,9 +125,19 @@ void quick_sort(int arr[],int n)
     arr[i]=arr[j];
     arr[j]=temp;
   }
-  printf("After Quick sort elements are :');
+  printf("After Quick sort elements are :");
   display(arr,n);
 }
-         
-    
+//Merge Sort Function//
+void merge_sort(int arr[],int n)
+{
+  int i,j,k;
+  if(arr[i]<=arr[j])
+    arr[k]=arr[i++];
+  else
+    arr[k]=arr[j++];
+}
+  printf("After Merge sort elements are :");
+  display(arr,n);
+ }
     

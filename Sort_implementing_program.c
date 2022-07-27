@@ -98,3 +98,21 @@ void selection_sort(int arr[],int n)
   printf("After Selection sort elements are :");
   display(arr,n);
 }  
+//Insertion Sort Function//
+void insertion_sort(int arr[],int n)
+{
+  int i,j,min;
+  for(i=1;i<n;i++)
+  {
+    min=arr[i];
+    j=i-1;
+    while(min<arr[j] && j>=0)
+    {
+      arr[j+1]=arr[j];
+      j=j-1;
+    }
+      arr[j+1]=min;
+      }
+  printf("After Insertion sort elements are :");
+  display(arr,n);
+}  

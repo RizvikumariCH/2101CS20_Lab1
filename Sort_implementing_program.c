@@ -116,3 +116,18 @@ void insertion_sort(int arr[],int n)
   printf("After Insertion sort elements are :");
   display(arr,n);
 }  
+//Quick Sort Function//
+void quick_sort(int arr[],int n)
+{
+  int i,j,temp;
+  if(i<j){
+    temp=arr[i];
+    arr[i]=arr[j];
+    arr[j]=temp;
+  }
+  printf("After Quick sort elements are :');
+  display(arr,n);
+}
+         
+    
+    

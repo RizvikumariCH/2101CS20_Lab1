@@ -52,4 +52,12 @@ while(1)
 }
 return0;
 }
+//Display function//
+void display(int arr[],int n)
+{
+  for(int i=0;i<n;i++)
+  {
+    printf("%d",arr[i]);
+  }
+}
   
